@@ -96,3 +96,17 @@ section#dante-virg-saem-da-floresta{
     padding: 15px;
     text-align: right;
 }
+
+footer{
+    background-color: var(--cor3);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+}
