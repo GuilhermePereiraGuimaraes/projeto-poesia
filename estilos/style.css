@@ -36,7 +36,7 @@ header audio{
 }
 header>h1{
     font-family: var(--fonte-medieval);
-    font-size: 10vh;
+    font-size: 7vw;
     padding: 15px;
     font-weight: lighter;
 }
@@ -52,7 +52,7 @@ main{
 }
 main p{
     font-family: var(--fonte-especial);
-    font-size: 7vh;
+    font-size: 3vw;
     line-height: 2em;
     padding: 15px;
 }
@@ -63,41 +63,38 @@ p.paragrafo-imagem{
     max-width: 850px;
     background-color: rgba(0, 0, 0, 0.568);
     color: white;
-    padding: 10px;
-    font-size: 6vh;
+    padding: 20px;
+    font-size: 3vw;
     font-weight: bold;
     display: inline-block;
     text-align: left;
 }
-section#dante-floresta{
-    background: black url(../imagens/dante-vermelho.jpg) center center no-repeat fixed;
+section{
+    background: black no-repeat fixed;
     background-size: cover;
-    padding: 15px;
     text-align: right;
+    padding: 15px;
+    box-shadow: inset 6px 6px 13px 0px #00000088;
+}
+section#dante-floresta{
+    background-image: url(../imagens/dante-vermelho.jpg);
+    background-position: center center;
 }
 section#dante-feras-01{
-    background: black url(../imagens/dante-e-as-bestas.jpg) top center no-repeat fixed;
-    background-size: cover;
-    padding: 15px;
-    text-align: right;
+    background-image: url(../imagens/dante-e-as-bestas.jpg);
+    background-position: top center;
 }
 section#virgilio-01{
-    background: black url(../imagens/dante-perto-virgilio.jpg) center center no-repeat fixed;
-    background-size: cover;
-    padding: 15px;
-    text-align: right;
+    background-image: url(../imagens/dante-perto-virgilio.jpg);
+    background-position: center center;
 }
 section#dante-deixa-floresta{
-    background: black url(../imagens/dante-e-o-leao.jpg) center center no-repeat fixed;
-    background-size: cover;
-    padding: 15px;
-    text-align: right;
+    background-image: url(../imagens/dante-e-o-leao.jpg);
+    background-position: center center;
 }
 section#dante-virg-saem-da-floresta{
-    background: black url(../imagens/dante-vira-as-costas-para-a-loba.jpg) center center no-repeat fixed;
-    background-size: cover;
-    padding: 15px;
-    text-align: right;
+    background-image: url(../imagens/dante-vira-as-costas-para-a-loba.jpg);
+    background-position: center center;
 }
 
 footer{
